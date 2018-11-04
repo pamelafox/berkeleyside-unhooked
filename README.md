@@ -1,2 +1,2 @@
-# berkeleyside-unhooked
-A Chrome extension for removing comments, color, and social media from Berkeleyside
+# medium-feed-hider
+A Chrome extension for hiding the feed on Medium.com

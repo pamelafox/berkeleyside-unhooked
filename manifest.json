@@ -1,0 +1,17 @@
+{
+  "name": "Berkeleyside Unhooked",
+  "version": "0.9",
+  "description": "Removes distracting features from Berkeleyside and desaturates all the colors.",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://www.berkeleyside.com/*"],
+      "js": ["script.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "manifest_version": 2
+}

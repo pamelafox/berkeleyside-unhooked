@@ -1,0 +1,77 @@
+
+
+html {
+  filter: saturate(0%);
+}
+
+/* Hide elements that I never need to see */
+
+/* Hide tweets sidebar */
+#twitter-timeline-profile-2 {
+  display: none;
+}
+
+/* Hide comments number */
+.comments-number {
+  display: none !important;
+}
+
+/* Hide share buttons next to byline */
+#ssba-classic-2 {
+  display: none !important;
+}
+
+/* Hide upper right social media links */
+#menu-social-media {
+  visibility: hidden !important;
+}
+
+/* Hide "Most commented" sidebar */
+.berkeleyside-single-comments-sidebar {
+  visibility: hidden !important;
+}
+
+/* Hide related stories */
+.meta-related-stories {
+  display: none !important;
+}
+
+/* Hide subscription reminder */
+.berkeleyside-single-main-content-sidebar {
+  display: none !important;
+}
+
+/* Hide comments */
+#content-area-comments {
+  visibility: hidden !important;
+}
+
+/* Hide site navigation */
+#site-navigation {
+  display: none !important;
+}
+
+/** Rotting styles: not currently in use **/
+.rotting p, .rotting span, .rotting figcaption, .rotting a, .rotting h1,  .rotting h2 {
+  background-clip: text !important;
+  color: rgba(0, 0, 0, .2) !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  background-color: #393333 !important;
+  background-repeat: no-repeat !important;
+  background-image: url(http://arsenal-s3.gomedia.us/wp-content/uploads/gma-texture-collection-05-dust-pack-01-hero-shot-rev-01.jpg) !important;
+  background-position: 100% !important;
+  background-size: 100% !important;
+}
+
+/* Rotting a bit more... */
+
+.rottingMore p, .rottingMore span, .rottingMore figcaption, .rottingMore a, .rottingMore h1, .rottingMore h2 {
+  background-image: url(https://previews.123rf.com/images/benjaminlion/benjaminlion1408/benjaminlion140800152/31032608-overlay-dust-grainy-texture-for-your-design-eps10-vector-.jpg) !important;
+}
+
+/* Rotting the most... */
+
+.rottingMost p, .rottingMost span, .rottingMost figcaption, .rottingMost a, .rottingMost h1, .rottingMost h2 {
+  background-image: url(https://cdn.pixabay.com/photo/2015/09/17/14/32/texture-944277_1280.jpg) !important;
+}
